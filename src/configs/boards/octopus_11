@@ -4,7 +4,7 @@ opt_set SERIAL_PORT "-1" # TFT
 opt_set SERIAL_PORT_2 "1" # USB 
 opt_set SERIAL_PORT_2 "2" # RPI
 
-# . $CFGDIR/accessories/use-32-microsteps
+. $CFGDIR/accessories/use-32-microsteps
 
 #pushd Marlin/src/HAL
 #rm -rf AVR DUE ESP32 LINUX SAMD51 STM* TEENSY*
