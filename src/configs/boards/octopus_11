@@ -6,9 +6,9 @@ opt_set SERIAL_PORT_2 "2" # RPI
 
 . $CFGDIR/accessories/use-32-microsteps
 
-#pushd Marlin/src/HAL
-#rm -rf AVR DUE ESP32 LINUX SAMD51 STM* TEENSY*
-#popd
+pushd Marlin/src/HAL
+rm -rf AVR DUE ESP32 LINUX SAMD51 TEENSY*
+popd
 
 # Write some useful tidbits to the readme.
 echo "- Configured for Octopus v1.1" >> README.md
