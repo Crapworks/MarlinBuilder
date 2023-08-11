@@ -1,5 +1,8 @@
 opt_set DEFAULT_AXIS_STEPS_PER_UNIT "{ 200, 200, 800 }"
 
+opt_set X2_STOP_PIN E0_DIAG_PIN
+opt_set Y2_STOP_PIN E1_DIAG_PIN  
+
 opt_set X2_CURRENT 900
 opt_set Y2_CURRENT 900
 
