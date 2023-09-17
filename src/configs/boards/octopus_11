@@ -2,8 +2,8 @@ opt_set MOTHERBOARD BOARD_BTT_OCTOPUS_V1_1
 opt_set Z_MIN_ENDSTOP_HIT_STATE HIGH 
 
 opt_set SERIAL_PORT "-1" # TFT
-opt_set SERIAL_PORT_2 "1" # USB 
-opt_set SERIAL_PORT_2 "2" # RPI
+define SERIAL_PORT_2 3
+define BAUDRATE_2 250000 
 
 . $CFGDIR/accessories/use-32-microsteps
 
