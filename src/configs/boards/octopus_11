@@ -1,10 +1,9 @@
 opt_set MOTHERBOARD BOARD_BTT_OCTOPUS_V1_1
 opt_set Z_MIN_ENDSTOP_HIT_STATE HIGH 
 
-opt_set SERIAL_PORT 3
-define SERIAL_PORT_2 -1
-define BAUDRATE_2 250000 
-
+opt_set SERIAL_PORT "-1"
+opt_set SERIAL_PORT_2 3
+opt_set BAUDRATE_2 250000 
 . $CFGDIR/accessories/use-32-microsteps
 
 pushd Marlin/src/HAL
